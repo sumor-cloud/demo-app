@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
+    "push-tag": "git push --tags && git push",
     "publish-release-patch": "npm version patch && npm run push-tag",
     "publish-release-minor": "npm version minor && npm run push-tag",
     "publish-release-major": "npm version major && npm run push-tag"

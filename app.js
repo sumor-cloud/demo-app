@@ -3,7 +3,7 @@ import createServer from "@sumor/ssl-server";
 const app = createServer();
 
 const versionInfo = {
-    feature1: "ABC1"
+    feature1: "ABC12"
 };
 
 app.all("/", (req, res) => {
